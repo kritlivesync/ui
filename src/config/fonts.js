@@ -1,5 +1,5 @@
 import normalize from '../helpers/normalizeText';
-export default {
+var size = {
   10: normalize(10),
   11: normalize(11),
   12: normalize(12),
@@ -18,7 +18,9 @@ export default {
   27: normalize(27),
   28: normalize(28),
   29: normalize(29),
-  30: normalize(30),
+  30: normalize(30),  
+}
+export default {
   ios: {
     regular: {
       fontFamily: 'PingFangHK-Regular, sans-serif',
@@ -41,7 +43,8 @@ export default {
     },
     Ayuthaya: {
       fontFamily: 'Ayuthaya'
-    }
+    },
+    size
   },
   android: {
     regular: {
@@ -73,5 +76,6 @@ export default {
       fontFamily: 'sans-serif',
       fontWeight: 'bold',
     },
+    size
   },
 };
