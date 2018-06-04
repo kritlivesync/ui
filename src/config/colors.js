@@ -1,3 +1,13 @@
+const React = require('react-native'); // eslint-disable-line no-undef
+
+const { PixelRatio, Dimensions } = React;
+
+const pixelRatio = PixelRatio.get();
+const deviceHeight = Dimensions.get('window').height;
+const deviceWidth = Dimensions.get('window').width;
+
+
+
 export default {
   primary: '#2F80F6',
   // primary1: '#4d86f7',
@@ -36,5 +46,8 @@ export default {
   tabTextSelected: '#136EF1',
 
   sliderLeft: '#2F80F6',
-  sliderRight: '#D3DFEF'
+  sliderRight: '#D3DFEF',
+  pixelRatio,
+  deviceHeight,
+  deviceWidth
 };
