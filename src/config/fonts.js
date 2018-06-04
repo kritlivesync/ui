@@ -1,4 +1,24 @@
+import normalize from '../helpers/normalizeText';
 export default {
+  10: normalize(10),
+  11: normalize(11),
+  12: normalize(12),
+  13: normalize(13),
+  14: normalize(14),
+  15: normalize(15),
+  16: normalize(16),
+  18: normalize(18),
+  20: normalize(20),
+  21: normalize(21),
+  22: normalize(22),
+  23: normalize(23),
+  24: normalize(24),
+  25: normalize(25),
+  26: normalize(26),
+  27: normalize(27),
+  28: normalize(28),
+  29: normalize(29),
+  30: normalize(30),
   ios: {
     regular: {
       fontFamily: 'PingFangHK-Regular, sans-serif',
