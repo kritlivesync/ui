@@ -79,7 +79,7 @@ const normalize = size => {
     return size * 1.40;
   }
   // if older device ie pixelRatio !== 2 || 3 || 3.5
-  return size * 0.9;
+  return size * 0.85;
 };
 
 module.exports = normalize; // eslint-disable-line no-undef
