@@ -1,26 +1,26 @@
 import normalize from '../helpers/normalizeText';
-var size = {
-  10: normalize(10),
-  11: normalize(11),
-  12: normalize(12),
-  13: normalize(13),
-  14: normalize(14),
-  15: normalize(15),
-  16: normalize(16),
-  18: normalize(18),
-  20: normalize(20),
-  21: normalize(21),
-  22: normalize(22),
-  23: normalize(23),
-  24: normalize(24),
-  25: normalize(25),
-  26: normalize(26),
-  27: normalize(27),
-  28: normalize(28),
-  29: normalize(29),
-  30: normalize(30),  
-}
 export default {
+  size_10: normalize(10),
+  size_11: normalize(11),
+  size_12: normalize(12),
+  size_13: normalize(13),
+  size_14: normalize(14),
+  size_15: normalize(15),
+  size_16: normalize(16),
+  size_17: normalize(17),
+  size_18: normalize(18),
+  size_19: normalize(19),
+  size_20: normalize(20),
+  size_21: normalize(21),
+  size_22: normalize(22),
+  size_23: normalize(23),
+  size_24: normalize(24),
+  size_25: normalize(25),
+  size_26: normalize(26),
+  size_27: normalize(27),
+  size_28: normalize(28),
+  size_29: normalize(29),
+  size_30: normalize(30),
   ios: {
     regular: {
       fontFamily: 'PingFangHK-Regular, sans-serif',
@@ -43,8 +43,7 @@ export default {
     },
     Ayuthaya: {
       fontFamily: 'Ayuthaya'
-    },
-    size
+    }
   },
   android: {
     regular: {
@@ -76,6 +75,5 @@ export default {
       fontFamily: 'sans-serif',
       fontWeight: 'bold',
     },
-    size
   },
 };
